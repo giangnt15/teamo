@@ -7,9 +7,10 @@
     padding: 12px 6px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 100%;
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 .main-header .header-container {
@@ -18,7 +19,10 @@
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    width: 33.3%;
+    width: 30%;
+}
+
+.main-header .header-container.header-left,  .main-header .header-container.header-right{
 }
 
 .main-header .header-container.header-middle {
@@ -26,8 +30,15 @@
 }
 
 .main-header .header-container.header-middle .shop-name{
-    font-size: 32px;
-    font-weight: bold;
+    height: 140%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../../../public/images/logotrangchu-at-4x-1.png');
+    width: 16rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -35,9 +46,11 @@
 .main-header .header-container  .header-item{
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     height: fit-content;
     padding: 8px;
     font-family: 'BeVNPro-Light';
+    padding: 0 12px;
+    white-space: nowrap;
 }

@@ -1,0 +1,35 @@
+.slide-show {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide-show .swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.slide-show .slide-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: none;
+    padding: none;
+}
+
+.slide-show .slide-wrapper .slide-item{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.slide-show .slide-wrapper .slide-item a{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

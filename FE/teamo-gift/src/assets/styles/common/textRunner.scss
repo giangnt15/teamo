@@ -1,0 +1,31 @@
+@use '../base.scss';
+
+@keyframes textrunner {
+    0%{
+        margin-left: 100%;
+        transform: translateX(0%);
+    }
+    100%{
+        margin-left: 0%;
+        transform: translateX(-100%);
+    }
+}
+
+.text-runner{
+    width: 100%;
+    height: 50px;
+    background-color: base.$primary-bg-color;
+    padding: 0 4px;
+    overflow: hidden;
+}
+
+.text-runner .runner-content{
+    width: 100%;
+    animation: textrunner 20s linear infinite;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+.text-runner .runner-content:hover{
+    animation-play-state: paused;
+}
