@@ -1,0 +1,26 @@
+$primary-color: #8A1415;
+
+@font-face {
+    font-family: "BeVNPro-Reg";
+    src: url('../fonts/BeVietnamPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: "BeVNPro-Thin";
+    src: url('../fonts/BeVietnamPro-Thin.ttf');
+}
+
+@font-face {
+    font-family: "BeVNPro-Light";
+    src: url('../fonts/BeVietnamPro-Light.ttf');
+}
+
+html, body{
+    width: 100% ;
+    height: 100% ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'BeVNPro-Reg';
+}
